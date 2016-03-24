@@ -4,7 +4,7 @@ import {HEROES} from './mock-heroes';
 @Injectable()
 export class HeroService {
     getHeroes(){
-        //return Promise.resolve(HEROES);
-        return HEROES;
+        return Promise.resolve(HEROES);
+       //return HEROES;
     }
 }
